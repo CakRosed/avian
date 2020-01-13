@@ -595,6 +595,12 @@ a,a:hover{
 	vertical-align: top;
 }
 
+.karir-col .karir-desc{
+	height: 40vh;
+	overflow: scroll;
+	margin-bottom: 10px;
+}
+
 .lamaran{
 	border: none;
 }
@@ -611,6 +617,19 @@ a,a:hover{
 .karir-col.lamaran{
 	width: 375px;
 	border-right: none;
+}
+
+.karir-col .btn-rounded{
+	background: none;
+	border: 1px solid #0d5a38;
+	border-radius: 25px;
+	padding: 4px 0;
+}
+
+.karir-col .btn-rounded:hover{
+	background: #0d5a38;
+	color: #ffffff;
+	transition: all 0.4s;
 }
 
 .input-form{
@@ -957,7 +976,7 @@ a,a:hover{
 .warna .btn-outline-success{
 	margin-top: 8px;
 	margin-left: 60px;
-	border: 1.5px solid green;
+	border: 1.5px solid #0d5a38;
 	background-color: #e7ece6;
 	border-radius: 20px; 
 }
