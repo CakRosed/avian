@@ -54,7 +54,7 @@ body, html{
 }
 .font-sm{
 	font-size: 16px;
-	line-height: line-height: 1.5;
+	line-height: 1.5;
 }
 .font-xs{
 	font-size: 12px;
@@ -389,6 +389,7 @@ a,a:hover{
 }
 
 .sejarah-text{
+	padding-left: 20px;
 	width: 500px !important;
 }
 .sejarah-col{
@@ -408,6 +409,11 @@ a,a:hover{
 
 #sejarah .award-col{
 	border: none !important;
+}
+
+.award .col-md-12{
+	padding-top: 20px;
+	padding-left: 28px;
 }
 
 .award-col{
@@ -448,7 +454,7 @@ a,a:hover{
 .product-col{
 	width: 250px;
 	border-right: 1px solid #CECACA;
-	border-left: 1px solid #CECACA;
+	border-left: 1px solid rgb(141, 119, 119);
 	padding: 23px;
 	display: inline-block;
 	margin-left: -5px;
@@ -949,12 +955,18 @@ a,a:hover{
 	padding: 5%; 
 }
 
+.warna .boxround .box-color{
+	height: 62vh;
+	padding: 0 20px !important;
+	overflow-y: scroll;
+}
+
 .warna h2{
 	margin-left: 30px;
 }
 
 .warna .boxround{
-	padding : 15px 30px 30px 30px;
+	padding : 15px 0 30px;
 	margin-top: 3vh;
 	background-color: rgb(252, 253, 255);
 	height: 73.5vh;
@@ -963,7 +975,8 @@ a,a:hover{
 
 .boxround p{
 	margin-top: 8px;
-	margin-bottom: -6px;
+	margin-bottom: 15px;
+	margin-left: 20px;
 }
 	
 .boxround p span{
@@ -1286,7 +1299,7 @@ li .textcheck p{
 
 /* produk_detail_warna */
 .detail_warna .header p{
-	padding: 20px 0 20px 160px;
+	padding: 20px 0 20px 17%;
 }
 
 .detail_warna .box-warna{
