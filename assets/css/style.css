@@ -272,7 +272,7 @@ a,a:hover{
 .nav-bottom a{
 	padding: 0 15px;
 }
- 
+
 #background{
 	background-image: url(../images/bg/home.jpg);
 	background-size: cover;
@@ -540,8 +540,10 @@ a,a:hover{
 
 .berita-col{
 	width: 450px;
-	padding-right: 20px
+	padding-right: 20px;
+	height: 85vh;
 }
+
 .berita-col, .berita-featured{
 	display: inline-block;
 	vertical-align: top;
@@ -549,9 +551,9 @@ a,a:hover{
 
 .berita .berita-panel{
 	background-color: #fff;
-	border-radius: 15px;
+	border-radius: 8px;
 	width: 100%;
-	margin-top: 20px;
+	margin-top: 25px;
 	overflow: hidden;
 	height: 170px;
 	padding: 0px;
@@ -575,11 +577,6 @@ a,a:hover{
 	margin: 19px;
 }
 
-.berita .berita-panel-text .link-selanjutnya{
-	position: absolute;
-	bottom: -10px;
-	right: 5px;
-}
 .berita-panel a:hover{
 	text-decoration: underline !important;
 }
@@ -795,7 +792,7 @@ a,a:hover{
 	background-color: #0d5a38
 }
 
- 
+
 /*tentang_gedung*/
 .gedung{
 	min-width: 380vw !important;
@@ -1158,14 +1155,14 @@ a,a:hover{
 }
 
 .dropdown-content-warna{
-	 border-top: 10px solid #e7ece6;
-	 display: none;
-	 position: absolute;
-	 background-color: #ffffff;
-	 min-width: 200px;
-	 z-index: 1;
-	 border-radius: 18px 18px 10px 10px;
-	 padding : 0 8px 8px 8px;
+	border-top: 10px solid #e7ece6;
+	display: none;
+	position: absolute;
+	background-color: #ffffff;
+	min-width: 200px;
+	z-index: 1;
+	border-radius: 18px 18px 10px 10px;
+	padding : 0 8px 8px 8px;
 }
 
 .dropdown-content-warna ul{
@@ -1200,18 +1197,18 @@ a,a:hover{
 	padding: 0 7px;
 }
 
- /* custom checkbox */
- .content-check{
- 	font-weight: normal;
- 	display: block;
-    position: relative;
-    padding-left: 10px; 
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
- }
+/* custom checkbox */
+.content-check{
+	font-weight: normal;
+	display: block;
+	position: relative;
+	padding-left: 10px; 
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
 
 li .rowcheck{
 	padding-bottom: 2px;
@@ -1230,47 +1227,47 @@ li .textcheck p{
 	margin-bottom: -3px;
 }
 
- .content-check input{
- 	padding-top: 10px;
- 	position: absolute;
-    opacity: 0;
-    cursor: pointer;
- }
+.content-check input{
+	padding-top: 10px;
+	position: absolute;
+	opacity: 0;
+	cursor: pointer;
+}
 
- .content-check .checkmark{
- 	position: absolute;
-    top: 0;
-    left: 0;
-    height: 12px;
-    width: 12px;
-    background-color: #eee;
-    border-radius: 3px;
-    border: 1.5px solid #01532f;
- }
+.content-check .checkmark{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 12px;
+	width: 12px;
+	background-color: #eee;
+	border-radius: 3px;
+	border: 1.5px solid #01532f;
+}
 
 .content-check input:checked ~ .checkmark {
-    background-color: #01532f;
+	background-color: #01532f;
 }
 
 .checkmark:after {
-    content: "";
-    position: absolute;
-    display: none;
+	content: "";
+	position: absolute;
+	display: none;
 }
 .content-check input:checked ~ .checkmark:after {
-    display: block;
+	display: block;
 }
 
 .content-check .checkmark:after {
-    left: 9px;
-    top: 5px;
-    width: 5px;
-    height: 10px;
-    border: solid white;
-    border-width: 0 3px 3px 0;
-    -webkit-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    transform: rotate(45deg);
+	left: 9px;
+	top: 5px;
+	width: 5px;
+	height: 10px;
+	border: solid white;
+	border-width: 0 3px 3px 0;
+	-webkit-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
 }
 
 
@@ -1369,88 +1366,95 @@ li .textcheck p{
 }
 
 
-
-/* .detail_warna{
-	background-image: url(../images/bg.png);
-	background-size: 50%;
-	background-repeat: repeat-x;
-	background-position: bottom;
-	height: 100vh;
+/* berita_pers */
+.berita_pers .berita-featured{
+	width: 750px;
 }
 
-.detail_warna .row{
-	padding : 0px !important;
-	margin : 0px !important;
-	width: 92.7vw;
-}
 
-.detail_warna p{
-	margin-left: 20vw;
-	padding: 40px 0 30px 20px;
-}
-
-.detail_warna .box-warna{
-	width: 10vw;
-	height: 30vh;
-	background-color: #cec8b2;
-	padding-top: 26vh;
-	padding-left: 1vw;
-	margin-left: 5vw;
-}
-
-.detail_warna .card{
-	background-color: white;
-	border-radius: 5px;
-	height: 22vh;
-	width: 33vw;
-	margin: 0 30px 25px 40px;
-	position: relative;
-}
-
-.detail_warna .card2{
-	background-color: white;
-	border-radius: 5px;
-	height: 22vh;
-	width: 33vw;
-}
-
-.detail_warna .cat-img{
-	margin-top: 0.5vh;
-	height: 21vh;
-}
-
-.detail_warna .cat-text{
-	margin-left: -20px;
-	margin-top: -30px;
-}
-
-.detail_warna .text-desc{
-	padding-right:20px;
-	margin-left: -20px;
-	margin-top: -75px;
-	font-size: 12px;
-	text-align: left;
-	margin-bottom: -13px;
-}
-
-.detail_warna .btn-detail{
-	border: 1px solid #01532f;
-	padding: 3px 70px;
-	border-radius: 25px;
-	margin-top: -20px;
+.berita_pers .lastest .card{
+	width: 100%;
+	border-radius: 8px;
+	height: 65vh;
+	border-radius: 8px;
 	background-color: #ffffff;
 }
 
-.detail_warna .btn-detail:hover{
-	transition: all 0.3s;
-	background-color: #01532f;
-	color: white;
-} */
-/* end_detail_warna */
+.berita_pers .lastest{
+	margin-top: 40px;
+	padding: 20px;
+	position: relative;
+}
 
+.berita_pers .lastest .card-img{
+	height: 40%;
+	border-radius: 8px 8px 0 0;
+	overflow: hidden;
+}
 
-/* berita_pers */
-.berita_pers{
+.berita_pers .lastest .lastest-img{
+	width: 100%;
+}
+
+.berita_pers .lastest .card-text{
+	height: 40%;
+	padding: 20px;
+}
+
+.berita_pers .lastest .card-text .title{
+	height: 65%;
+	overflow: scroll;
+}
+
+.berita_pers .lastest .card-text .content{
+	height: 80%;
+	overflow: scroll;
+}
+
+.berita_pers .lastest .card-text .btn-selanjutnya{
+	position: absolute;
+	right: 40px;
+	bottom: 30px;
+	cursor: pointer;
+}
+
+.berita_pers .berita-col{
+	width: 600px !important;
+	height: 85vh;
+}
+
+.berita_pers .berita-col .berita-panel .card-img{
+	height: 23vh;
+	border-radius: 8px 0 0 8px;
+	overflow: hidden;
+}
+
+.berita_pers .berita-col .berita-panel .card-img img{
+	width: 100%;
+}
+
+.berita_pers .berita-col .berita-panel .berita-panel-text{
+	position: relative;
+}
+
+.berita_pers .berita-col .berita-panel .berita-panel-text h3{
+	height: 35%;
+	overflow: scroll;
+	margin-bottom: 0px !important;
+}
+
+.berita_pers .berita-col .berita-panel .berita-panel-text .text-content{
+	overflow: scroll;
+	height: 55%;
+}
+
+.berita_pers .berita-col .berita-panel .berita-panel-text .link-selanjutnya{
+	position: absolute;
+	right: 3px;
+	bottom:-15px;
+}
+
+/* .berita_pers{
 	padding: 0px !important
 	margin-left: 5vw;
 	height: 100vh !important;
@@ -1576,7 +1580,7 @@ li .textcheck p{
 .berita_pers .box2 .text-link span{
 	font-size: 13px;
 	margin-left: 6vw;
-}
+} */
 /* end berita_pers */
 
 
@@ -2053,27 +2057,30 @@ li .textcheck p{
 
 
 
-.peduli .berita-panel{
+.peduli .berita-panel, .berita_pers .berita-panel{
 	position: relative;
 	overflow: visible;
 }
 
 .peduli .berita-col{
 	width: 600px !important;
+	height: 85vh;
 }
 
-.peduli .berita-panel img:nth-child(1){
-	border-radius: 10px 0 0 10px;
+.peduli .berita-panel img:nth-child(1), .berita_pers .berita-panel img:nth-child(1){
+	border-radius: 8px 0 0 8px;
 }
 
-.peduli .berita-panel .shadow-img{
+.peduli .berita-panel .shadow-img, .berita_pers .berita-panel .shadow-img{
 	left: 10%;
 	right: 10%;
 	width: 80%;
-	height: 25px;
+	height: 18px;
 	position: absolute;
-	bottom: -25px;
+	bottom: -18px;
+	opacity: 0.4;
 }
+
 
 
 /* custom hoover background*/
