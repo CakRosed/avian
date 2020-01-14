@@ -508,7 +508,7 @@ a,a:hover{
 }
 
 .berita .berita-featured{
-	width: 1076px;
+	width: 930px;
 }
 
 .berita .berita-featured .peduli-desc{
@@ -757,24 +757,67 @@ a,a:hover{
 
 .peduli #kantorMap{
 	position: fixed !important	;
-	width: 950px !important;
-	height: 450px !important;
+	width: 900px !important;
+	height: 500px !important;
 	bottom: 0px !important;
 	left: 0px !important;
 	z-index: 1 !important;
 }
+
+.peduli #kantorMap .card-map{
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	width: 30vw;
+	height: 20vh;
+	background-color: #ffffff;
+	border-radius: 8px;
+	z-index: 2;
+}
+
 #peduliFilter{
 	position: fixed !important;
 	width: 300px;
-	bottom: 250px !important;
+	bottom: 350px !important;
 	left: 25px !important;
 	z-index: 2 !important;
-	background-color: blue;
 }
 
+#cardMap{
+	height: 20vh;
+	width: 35vw;
+	background-color: #ffffff;
+	z-index:2 !important;
+	position: fixed !important;
+	bottom: 30px !important;
+	left: 24px !important;
+	border-radius: 8px;
+	padding: 15px 20px 15px;
+}
+
+#cardMap p:nth-child(2){
+	overflow: scroll;
+	height: 40%;
+}
+
+#cardMap img{
+	position: absolute;
+	width: 80%;
+	height: 15px;
+	left: 10%;
+	bottom:-15px;
+	opacity: 0.4;
+}
+
+#cardMap .link-selanjutnya{
+	position: absolute;
+	bottom: 2px;
+	right: 15px;
+}
+
+/* 
 #peduliFilter .select-box .option{
 	height: 15px;
-	background-color: red;
 }
 
 #peduliFilter .select-box .option input[type=radio] #semua{
@@ -782,7 +825,7 @@ a,a:hover{
 
 #peduliFilter .select-box .option label{
 	margin-left: 15px;
-}
+} */
 
 
 /*
@@ -2097,6 +2140,28 @@ li .textcheck p{
 	height: 85vh;
 }
 
+.peduli .berita-col .berita-panel-text{
+	position: relative;
+	margin: 15px;
+	width: 26.5vw;
+	border-radius: 0 8px 8px 0;
+	height: 23.5vh;
+}
+
+.peduli .berita-col .berita-panel-text h3{
+	height: 30%;
+	padding: 10px 10px 0;
+}
+.peduli .berita-col .berita-panel-text .content{
+	height: 40%;
+	padding: 10px;
+	overflow: scroll;
+}
+.peduli .berita-col .berita-panel-text .link-selanjutnya{
+	position: absolute;
+	bottom: 5px;
+	right: 15px;
+}
 .peduli .berita-panel img:nth-child(1), .berita_pers .berita-panel img:nth-child(1){
 	border-radius: 8px 0 0 8px;
 }
