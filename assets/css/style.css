@@ -1665,12 +1665,17 @@ li .textcheck p{
 .produk-panel .box-content{
 	padding: 10px;
 	position: relative;
+	height: 25vh;
 }
-.produk-panel .content-panel{
+.produk-panel .box-content .content-panel{
+	position: absolute;
 	width: 300px;
 	margin-left: 15px;
-	margin-top: 5px;;
+	margin-top: 2px;
+	margin-bottom: 5px;
 	overflow: scroll;
+	height: 50%;
+	font-size: 14px !important;
 }
 
 .produk-panel .header-panel{
@@ -1687,10 +1692,12 @@ li .textcheck p{
 }
 
 .produk-panel .btn-produk{
+	bottom: 8%;
 	position: absolute;
-	left: 10%;
 	border-radius: 25px;
-	padding: 3.5px 8vw;
+	width: 80%;
+	left: 8%;
+	padding: 3.5px 0;
 	background-color: #ffffff;
 	border: 1px solid #01532f; 
 }
