@@ -586,6 +586,13 @@ a,a:hover{
 .berita-panel a:hover{
 	text-decoration: underline !important;
 }
+.karir .karir-text{
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
+	margin-left: 13px;
+}
 
 .karir-col, .lamaran{
 	margin-top: 25px;
@@ -2307,3 +2314,59 @@ li .textcheck p{
 	position: relative;
 }
 /* end custom hoover background */
+
+/* .gedung .icon-scrol */
+.gedung .icon-scroll{
+	bottom: -350px !important;
+	right: -700px !important;
+}
+
+.icon-scroll{
+	position: absolute !important;
+	height: 30px;
+	width: 30px;
+	border: 0.5px solid #919293;
+	border-radius: 50%;
+	bottom: 50px;
+	left: 90%;
+	z-index: 2 !important;
+}
+
+.icon-scroll i{
+	position: absolute;
+	left: 33.1%;
+	top: 33.1%;
+	color: #0D5A38;
+}
+
+.gedung .icon-scroll-back{
+	bottom: -350px !important;
+	right: -700px !important;
+}
+
+.berita_pers .icon-scroll-back{
+	bottom: 50px;
+	right: -120%;
+}
+.peduli .icon-scroll-back{
+	bottom: 50px;
+	right: -130%;
+}
+
+.icon-scroll-back{
+	position: absolute !important;
+	height: 30px;
+	width: 30px;
+	border: 0.5px solid #919293;
+	border-radius: 50%;
+	bottom: 50px;
+	right: 20%;
+	z-index: 2 !important;
+}
+
+.icon-scroll-back i{
+	position: absolute;
+	right: 33.1%;
+	top: 33.1%;
+	color: #0D5A38;
+}
