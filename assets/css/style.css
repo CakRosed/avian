@@ -1336,15 +1336,25 @@ li .textcheck p{
 
 .detail_warna .box-card .card-produk .box-desc-produk{
 	position: relative;
-	height: 23vh;
-	padding: 15px 25px 15px 10px;
+	padding: 15px 25px 0 10px;
 	border-radius: 0 8px 8px 0;
+	height: 25vh;
+}
+
+.detail_warna .box-card .card-produk .box-desc-produk .desc-content{
+	position: absolute;
+	height: 45%;
+	overflow: scroll;
+	padding-right: 18px;
 }
 
 .detail_warna .box-card .card-produk .box-desc-produk .btn-produk{
+	position: absolute;
+	bottom: 5px;
+	left: 0px;
 	border: 1px solid #0D5A38;
+	padding: 4px 100px;
 	border-radius: 25px;
-	padding: 4px 30% 3px;
 	background-color: #ffffff;
 } 
 
