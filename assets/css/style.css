@@ -2176,7 +2176,7 @@ li .textcheck p{
 
 .peduli .berita-col .berita-panel-text{
 	position: relative;
-	margin: 15px;
+	/* margin: 15px; */
 	width: 26.5vw;
 	border-radius: 0 8px 8px 0;
 	height: 23.5vh;
@@ -2184,17 +2184,17 @@ li .textcheck p{
 
 .peduli .berita-col .berita-panel-text h3{
 	height: 30%;
-	padding: 10px 10px 0;
+	padding: 10px 19px 0;
 }
 .peduli .berita-col .berita-panel-text .content{
 	height: 40%;
-	padding: 10px;
+	padding: 19px;
 	overflow: scroll;
 }
 .peduli .berita-col .berita-panel-text .link-selanjutnya{
 	position: absolute;
 	bottom: 5px;
-	right: 15px;
+	right: 22px;
 }
 .peduli .berita-panel img:nth-child(1), .berita_pers .berita-panel img:nth-child(1){
 	border-radius: 8px 0 0 8px;
