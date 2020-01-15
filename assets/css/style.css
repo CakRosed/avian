@@ -1491,6 +1491,7 @@ li .textcheck p{
 .berita_pers .lastest .card-text{
 	height: 40%;
 	padding: 20px;
+	padding-top: 10px;
 }
 
 .berita_pers .lastest .card-text .title{
@@ -1499,6 +1500,7 @@ li .textcheck p{
 }
 
 .berita_pers .lastest .card-text .content{
+	padding-top: 10px;
 	height: 80%;
 	overflow: scroll;
 }
