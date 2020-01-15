@@ -573,7 +573,7 @@ a,a:hover{
 	background-color: #fff;
 	border-radius: 8px;
 	width: 100%;
-	margin-top: 25px;
+	margin-top: 20px;
 	overflow: hidden;
 	height: 170px;
 	padding: 0px;
@@ -796,23 +796,14 @@ a,a:hover{
 	z-index: 2;
 }
 
+
 .peduliFilter{
-	position: fixed !important;
+	background:none;
+	top:100px !important;
+	z-index: 3 !important;
+	position: fixed;
+	/* margin-top: -35px; */
 	width: 350px;
-	height: 30vh;
-	top: 230px !important;
-	left: 25px !important;
-	z-index: 2 !important;
-	background-color: blue;
-}
-
-
-#peduliFilter{
-	position: fixed !important;
-	width: 300px;
-	bottom: 350px !important;
-	left: 25px !important;
-	z-index: 2 !important;
 }
 
 #cardMap{
@@ -1519,6 +1510,7 @@ li .textcheck p{
 .berita_pers .berita-col{
 	width: 600px !important;
 	height: 85vh;
+	padding-top: 15px;
 }
 
 .berita_pers .berita-col .berita-panel .card-img{
