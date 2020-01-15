@@ -61,6 +61,11 @@ body, html{
 	line-height: 1.5;
 }
 
+.font-14{
+	font-size: 14px;
+	line-height: 1.5;
+}
+
 .font-vertical{
 	writing-mode: vertical-lr;
 }
@@ -170,6 +175,11 @@ a,a:hover{
 	background-size: auto 50%;
 	background-repeat: repeat-x;
 }
+
+.award .h-col{
+	padding-left: 50px;
+}
+
 .h-col.fw{
 	width: 100vw;
 }
@@ -414,6 +424,10 @@ a,a:hover{
 .award .col-md-12{
 	padding-top: 20px;
 	padding-left: 28px;
+}
+
+.award .award-text{
+	margin-left: -5px;
 }
 
 .award-col{
@@ -781,6 +795,17 @@ a,a:hover{
 	border-radius: 8px;
 	z-index: 2;
 }
+
+.peduliFilter{
+	position: fixed !important;
+	width: 350px;
+	height: 30vh;
+	top: 230px !important;
+	left: 25px !important;
+	z-index: 2 !important;
+	background-color: blue;
+}
+
 
 #peduliFilter{
 	position: fixed !important;
@@ -1781,8 +1806,9 @@ li .textcheck p{
 }
 
 .produk_detail_produk .img-box{
-	height: 30%;
+	height: 25%;
 	position: relative;
+	margin-bottom: 15px;
 }
 
 .produk_detail_produk .img-box img{
@@ -1849,8 +1875,12 @@ li .textcheck p{
 	margin: 0px !important;
 }
 
+.produk_detail_produk .box-desc p{
+	padding-top: 15px !important;
+	padding-left: 40px !important;
+}
 .produk_detail_produk .desc-card p{
-	font-size: 11px;
+	font-size: 14px;
 }
 
 .produk_detail_produk .desc-card .calculator-box{
