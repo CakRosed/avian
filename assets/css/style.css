@@ -2189,6 +2189,7 @@ li .textcheck p{
 .peduli .berita-col .berita-panel-text .content{
 	height: 40%;
 	padding: 19px;
+	padding-top: 5px;
 	overflow: scroll;
 }
 .peduli .berita-col .berita-panel-text .link-selanjutnya{
@@ -2396,4 +2397,11 @@ li .textcheck p{
 	right: 33.1%;
 	top: 33.1%;
 	color: #0D5A38;
+}
+
+.label-container{
+	position:fixed;
+	bottom:48px;
+	right:105px;
+	display:table;
 }
